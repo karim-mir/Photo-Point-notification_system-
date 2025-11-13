@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "photo point"
+version = "0.1.0"
+description = ""
+authors = ["NazKar@Nazir <karimov.nazir00@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flake8 = "^7.3.0"
+isort = "^7.0.0"
+black = "^25.11.0"
+django = "^5.2.8"
+psycopg2-binary = "^2.9.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
